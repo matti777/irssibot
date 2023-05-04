@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- $Id: example-config.xml,v 1.1.1.1 2002/11/08 10:51:59 dreami Exp $ -->
+<!-- author: Matti Dahlbom -->
+<!-- version: $Name:  $ $Revision: 1.1.1.1 $ -->
+<irssibot-config>
+
+  <!-- general info -->
+  <general>
+    <!-- 
+      <log> Attributes: 
+        class: class name of a logger class that implements irssibot.util.log.CommonLog 
+	property-file: path to a property file containing logger specific information
+    -->
+    <log class="irssibot.util.log.FileLog"
+         property-file="config/filelog.properties" 
+	 date-format="dd.MM.yyyy HH:mm:ss" />
+    <!--
+      HTTP server is a thread enabling administration with a browser using HTTP. 
+      bind-port defines the port to listen for incoming HTTP connections.
+      password defines the password required for accessing the service.
+
+      hosts-allow and hosts-deny define the hostmasks allowed/disallowed to access 
+      the service.
+    -->
+    <http-server bind-port="8080" password="admin">
+      <hosts-allow>
+        <host address="localhost" />
+      </hosts-allow>
+      <hosts-deny>
+        <host address="*" />
+      </hosts-deny>
+    </http-server>
+  </general>
+
+
+   <!-- module list -->
+   <modules base-dir="modules">
+      <!-- 
+        <module> nodes containining class names of classes extending
+	irssibot.modules.AbstractModule
+      -->
+      <module>irssibot.modules.UserTools</module>
+      <module>irssibot.modules.ChannelTools</module>
+      <module>irssibot.modules.TopicTools</module>
+   </modules>
+
+   <!-- database instance -->
+   <!--
+     Database instance's name -attribute is used for retrieving connectiong for
+     database instance by calling Core.getDatabaseConnection() with the name.
+     
+     jdbc driver-class and url define the used (jdbc) driver.
+
+     The jdbc url must be properly url encoded, for example the '&' characters 
+     replaced by &#38;.
+   -->
+   <database name="mysql1">
+     <jdbc driver-class="org.gjt.mm.mysql.Driver"
+           url="jdbc:mysql://myhost:myport/mydb?user=myuser&#38;password=mypass" />
+   </database>
+
+   <!-- copypaste & edit <database>s here to add database connections --> 
+             
+   <!-- server instance -->
+   <server-instance network="IRCNet">
+      <!-- 
+        output flush-time-ms and max-output-bytes define how many bytes may
+	be sent to the server in a time unit. These exist to avoid Excess Flood
+	kill from server.
+
+	It is recommended to use these default values, at least for IRCNet. Other
+	(and more modern) IRC networks may have larger buffers and therefore
+	larger output flux could be applied.
+      -->
+      <output flush-time-ms="1000" max-output-bytes="1024" />
+
+      <bot-info nick="ankybot" 
+                altnick="ankybot-" 
+		ident="irssibot"
+		realname="http://dreamland.tky.hut.fi/IrssiBot/" />
+
+      <user-file path="config/example-users-file.xml" />
+
+      <server-list>
+	 <address>irc.server1.address:port</address>
+	 <address>irc.server2.address:port</address>
+	 <address>irc.server3.address:port</address>
+      </server-list>
+
+      <channel-list>
+         <channel name="#channel1" key="" forced-modes="+nt-slim" />
+         <channel name="#channel2" key="myKey" forced-modes="+nt-slim" />
+      </channel-list>   
+   </server-instance>
+
+   <!-- copypaste & edit <server-instance>s here to add server connects --> 
+
+</irssibot-config>
+
+
+
+
+
+
+

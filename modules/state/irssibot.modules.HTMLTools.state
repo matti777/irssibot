@@ -1,0 +1,3 @@
+#state file for irssibot.modules.HTMLTools
+#Wed Feb 20 15:45:01 EET 2013
+tinyurl.threshold=70

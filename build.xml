@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<!--
+   Ant build file for IrssiBot
+   Copyright (c) 2001 Matti Dahlbom 
+   Author: Matti Dahlbom 
+
+   $Revision: 1.7 $
+   $Id: build.xml,v 1.7 2001/10/02 12:55:29 matti Exp $
+-->
+
+<project name="irssibot" default="build" basedir=".">
+
+  <target name="init">
+    <property name="dir.build" value="classes" />
+    <property name="dir.source" value="." />
+    <property name="dir.modules" value="modules" />
+    <property name="dir.jars" value="/home/matti/src/ircproxy/jars/" />
+    <property name="dir.doc" value="www/IrssiBot/documentation/api/" />
+    <property name="classpath" value="${dir.jars}/xerces.jar:${dir.build}" />
+  </target>     
+
+  <target name="javadoc" depends="init">
+    <delete dir="${dir.doc}" />
+    <mkdir dir="${dir.doc}" />
+    <javadoc sourcepath="."
+             private="true"
+             destdir="${dir.doc}"
+             bottom="IrssiBot (c) 2000-2001 Matti Dahlbom"
+             windowtitle="IrssiBot API Reference"
+             packagenames="irssibot.*" />
+  </target>
+
+  <target name="build" depends="init">
+    <mkdir dir="${dir.build}" />
+    <javac srcdir="${dir.source}"
+           destdir="${dir.build}"
+	   source="1.5"
+	   debug="true"
+	   classpath="${classpath}"
+	   includes="irssibot/core/**, irssibot/config/**, irssibot/util/**" />
+    <javac srcdir="${dir.source}"
+           destdir="${dir.modules}"
+	   source="1.5"
+	   debug="true"
+	   classpath="${classpath}"   
+	   includes="irssibot/modules/**" />
+  </target>	   
+
+  <target name="clean" depends="init">
+    <delete>
+      <fileset dir="${dir.build}" includes="irssibot/**/*.class" />
+      <fileset dir="${dir.modules}" includes="irssibot/**/*.class" />
+    </delete>
+  </target>
+    
+</project>
+
+
+
+
+
+
+
+
+

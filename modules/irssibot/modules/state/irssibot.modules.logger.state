@@ -1,0 +1,5 @@
+#state file for irssibot.modules.Logger
+#Thu Apr 26 13:24:55 EEST 2001
+autoquote=true
+autonickjoin=false
+dbname=irclog

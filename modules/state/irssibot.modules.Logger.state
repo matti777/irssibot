@@ -1,0 +1,5 @@
+#state file for irssibot.modules.Logger
+#Tue Jan 08 16:44:11 EET 2002
+autoquote=true
+autonickjoin=true
+dbname=mysql1

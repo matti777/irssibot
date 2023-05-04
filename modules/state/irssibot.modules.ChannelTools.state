@@ -1,0 +1,21 @@
+#state file for irssibot.modules.ChannelTools
+#Sun Apr 15 11:09:20 EEST 2012
+IRCNet-\#mcmoka-chanvars=30 5 0 0
+IRCNet-\#mcmoka-floodvars=10 2
+IRCNet-\#777-team-permban6=*\!*@*.google.com
+IRCNet-\#777-team-permban5=*\!*roadrun*@*
+IRCNet-\#777-team-permban4=*\!-*@*
+IRCNet-\#777-team-permban3=*\!*@*lv
+IRCNet-\#777-team-permban2=*\!*@*ru
+IRCNet-\#qvik-chanvars=30 5 0 0
+IRCNet-\#777-team-permban1=*\!*@*it
+IRCNet-\#777-team-permban0=*\!*@*pl
+IRCNet-\#mokaw-chanvars=30 5 0 0
+IRCNet-\#qvik-floodvars=10 2
+IRCNet-\#mcmoka-permban1=*\!*@hoasb-ff00dd00-204.dhcp.inet.fi
+IRCNet-\#mcmoka-permban0=*\!kouzar
+IRCNet-\#777-team-floodvars=10 2
+IRCNet-\#rolanders-chanvars=30 5 0 0
+IRCNet-\#rolanders-floodvars=10 2
+IRCNet-\#mokaw-floodvars=10 2
+IRCNet-\#777-team-chanvars=30 5 0 1

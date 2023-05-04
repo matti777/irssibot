@@ -1,0 +1,556 @@
+<users-file>
+<!-- user record begin -->
+<user name="matti" global-flags="A" password="qndeurhi">
+  <channel name="#irssibot" flags="oA" />
+  <channel name="#mcmoka" flags="oA" />
+  <channel name="#vempain" flags="oA" />
+  <channel name="#mokaw" flags="o" />
+  <channel name="#777-team" flags="oA" />
+  <hostmasks>
+    <mask>*!matti@777-team.org</mask>
+    <mask>*!~matti@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="lanfear" global-flags="A" password="orororor">
+  <channel name="#vempain" flags="o" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!poltsi@poltsi.fi</mask>
+    <mask>*!poltsi@777-team.org</mask>
+    <mask>*!~*@gw-1.cardinal.fi</mask>
+    <mask>*!~poltsi@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="amarok" global-flags="" password="orororor">
+  <channel name="#mcmoka" flags="v" />
+  <channel name="#mokaw" flags="o" />
+  <channel name="#777-team" flags="v" />
+  <hostmasks>
+    <mask>*!~riikka@YYYMDCCCXLIII.dsl.saunalahti.fi</mask>
+    <mask>*!~riikka@YYYMDCCLXXV.dsl.saunalahti.fi</mask>
+    <mask>*!~riikka@a88-112-29-247.elisa-laajakaista.fi</mask>
+    <mask>*!amaruk@xob.kapsi.fi</mask>
+    <mask>*!amaruk@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="sintetik" global-flags="" password="ogwxnyps">
+  <channel name="#777-gpl" flags="o" />
+  <channel name="#rolanders" flags="o" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!sintetik@dreamland.tky.hut.fi</mask>
+    <mask>*!^sintetik@777-team.org</mask>
+    <mask>*!sintetik@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="JWX" global-flags="" password="orororor">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!JWX@off7.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="djinn" global-flags="" password="">
+  <channel name="#777-gpl" flags="o" />
+  <channel name="#mcmoka" flags="o" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!^djinn@777-team.org</mask>
+    <mask>*!djinn@777-team.org</mask>
+    <mask>*!djinn@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="miika" global-flags="" password="">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!ruckus@777-team.org</mask>
+    <mask>*!~msills@staff.megabaud.fi</mask>
+    <mask>*!miika@percival.hel.kolumbus.net</mask>
+    <mask>*!~msills@irchat.kolumbus.fi</mask>
+    <mask>*!rawkus@off2.pixelpress.fi</mask>
+    <mask>*!ruckus@off2.pixelpress.fi</mask>
+    <mask>*!~msills@polykoira.megabaud.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="funk" global-flags="" password="nwvlwuvu">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!^funk@777-team.org</mask>
+    <mask>*!^funk@193.66.151.67</mask>
+    <mask>*!funk@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="rcop" global-flags="A" password="">
+  <channel name="#vempain" flags="o" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!^rcop@777-team.org</mask>
+    <mask>*!rcop@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="keke" global-flags="" password="">
+  <channel name="#rolanders" flags="o" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!~koksanen@777-team.org</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="skoude" global-flags="" password="">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!^skoude@777-team.org</mask>
+    <mask>*!skoude@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="funk-d" global-flags="" password="nwvlwuvu">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!funk@*.pp.htv.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="izmo" global-flags="" password="qquopgui">
+  <channel name="#rolanders" flags="o" />
+  <hostmasks>
+    <mask>*!izmo@193.65.198.52</mask>
+    <mask>*!^izmo@777-team.org</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="ceder" global-flags="" password="777tfyz}">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!noone@dreamland.tky.hut.fi</mask>
+    <mask>*!noone@dsl-hki*.dial.inet.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="orca-d" global-flags="" password="777Swipv">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!orca@195.218.82.*</mask>
+    <mask>*!~nuthin@195.218.82.*</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="sinte-d" global-flags="" password="ut909303">
+  <channel name="#777-gpl" flags="o" />
+  <channel name="#rolanders" flags="o" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!~sintetik@cs*.pp.htv.fi</mask>
+    <mask>*!~inec@62.142.242.*</mask>
+    <mask>*!sintetik@62.142.242.*</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="kowanen" global-flags="" password="">
+  <channel name="#777-team" flags="v" />
+  <hostmasks>
+    <mask>*!~kowa@salaatti.cutery.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="lemon" global-flags="" password="">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!~trikki@xdsl-204-59.nblnetworks.fi</mask>
+    <mask>*!~trikki@solotes.fi</mask>
+    <mask>*!trikki@777-team.org</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="morgan" global-flags="" password="">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!^morgan@dreamland.tky.hut.fi</mask>
+    <mask>*!~Morgan@tth016nt01.hallinto.turkuamk.fi</mask>
+    <mask>*!^morgan@777-team.org</mask>
+    <mask>*!morgan@off2.pixelpress.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="toope" global-flags="" password="">
+  <channel name="#moka" flags="o" />
+  <channel name="#mcmoka" flags="oA" />
+  <channel name="#mokaw" flags="o" />
+  <channel name="#777-team" flags="v" />
+  <hostmasks>
+    <mask>*!~tfriman@famine.cs.hut.fi</mask>
+    <mask>*!tfriman@kekkonen.cs.hut.fi</mask>
+    <mask>*!tfriman@kosh.hut.fi</mask>
+    <mask>*!tfriman@gekkonen.niksula.hut.fi</mask>
+    <mask>*!tjf@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="syylari" global-flags="" password="">
+  <channel name="#moka" flags="o" />
+  <channel name="#mcmoka" flags="o" />
+  <channel name="#mokaw" flags="o" />
+  <hostmasks>
+    <mask>*!jtorkkel@kosh.hut.fi</mask>
+    <mask>*!~syylari@ip212-226-132-149.adsl.kpnqwest.fi</mask>
+    <mask>*!syylari@idle.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="hp" global-flags="" password="">
+  <channel name="#moka" flags="o" />
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!~hanok@halo.tky.hut.fi</mask>
+    <mask>*!~hanok@halo.tky.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="toni" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!anaali@nexus.tky.hut.fi</mask>
+    <mask>*!toni@mt.muumilaakso.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="liki" global-flags="" password="">
+  <channel name="#mcmoka" flags="v" />
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!liki@hutcs.cs.hut.fi</mask>
+    <mask>*!liki@mail.cs.hut.fi</mask>
+    <mask>*!liki@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="lieska" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!lieska@hutcs.cs.hut.fi</mask>
+    <mask>*!lieska@lieska.iki.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="maku" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!maku@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="autumnal" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <channel name="#mokaw" flags="o" />
+  <hostmasks>
+    <mask>*!tpsandvi@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="henttu" global-flags="" password="">
+  <channel name="#777-team" flags="v" />
+  <hostmasks>
+    <mask>*!nirbu600@213.141.102.242</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="moozz" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!moozz@blackmetal.fi</mask>
+    <mask>*!omertalo@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="tapsa" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <channel name="#mokaw" flags="o" />
+  <hostmasks>
+    <mask>*!dio@vipunen.hut.fi</mask>
+    <mask>*!dio@kosh.hut.fi</mask>
+    <mask>*!dio@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="vfriman" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!vfriman@thoth.hut.fi</mask>
+    <mask>*!vfriman@asterix.hut.fi</mask>
+    <mask>*!vfriman@vipunen.hut.fi</mask>
+    <mask>*!vfriman@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="cncr" global-flags="" password="">
+  <hostmasks>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="e-j" global-flags="" password="lcoepgsi">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!e-j@kapsi.fi</mask>
+    <mask>*!e-j@xob.kapsi.fi</mask>
+    <mask>*!e-j@hilla.kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="xsaatana" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!ajhuovil@vipunen.hut.fi</mask>
+    <mask>*!ajhuovil@kosh.hut.fi</mask>
+    <mask>*!ajhuovil@rogue.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="veera" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!valaketu@kapsi.fi</mask>
+    <mask>*!+valaketu@kapsi.fi</mask>
+    <mask>*!valaketu@xob.kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="Kala" global-flags="" password="">
+  <hostmasks>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="belle" global-flags="" password="">
+  <channel name="#default-guild" flags="o" />
+  <hostmasks>
+    <mask>*!~deangelis@putki.naviatech.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="wenoc" global-flags="" password="">
+  <channel name="#default-guild" flags="o" />
+  <hostmasks>
+    <mask>*!~scederqv@vipunen.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="juhak" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!jmkarja1@kekkonen.cs.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="sampsa" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!sjaatine@vipunen.hut.fi</mask>
+    <mask>*!sjaatine@kosh.hut.fi</mask>
+    <mask>*!sajaatin@kapsi.fi</mask>
+    <mask>*!sajaatin@xob.kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="neck" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!jjkopone@kekkonen.cs.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="salum" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!smabdulr@vipunen.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="OttoTrygg" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!otrygg@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="keiky" global-flags="" password="">
+  <hostmasks>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="Fork" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!jiholm@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="zyntax" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!jwheinon@vipunen.hut.fi</mask>
+    <mask>*!zyntax@orja.kyla.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="orca" global-flags="" password="">
+  <channel name="#777-team" flags="o" />
+  <hostmasks>
+    <mask>*!orca@777-team.org</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="nrml" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!markarpp@kosh.hut.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="Wictorey" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!wictorey@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="Pyry" global-flags="" password="">
+  <channel name="#mcmoka" flags="o" />
+  <hostmasks>
+    <mask>*!ppeitso@kosh.org.aalto.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="arttu" global-flags="" password="">
+  <channel name="#qvik" flags="o" />
+  <hostmasks>
+    <mask>*!u6022@irccloud.com</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="niko" global-flags="" password="">
+  <channel name="#qvik" flags="o" />
+  <hostmasks>
+    <mask>*!shaman42@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="jussi" global-flags="" password="">
+  <channel name="#qvik" flags="o" />
+  <hostmasks>
+    <mask>*!jussila@kapsi.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+</users-file>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- main configuration file for IrssiBot / created Wed Feb 20 15:45:01 EET 2013 -->
+<irssibot-config>
+  <general>
+    <interface ip="83.145.232.215" />
+    <log class="irssibot.util.log.FileLog"
+         property-file="config/filelog.properties"
+         date-format="[dd.MM.yyyy HH:mm:ss]" />
+  </general>
+
+  <modules base-dir="modules">
+    <module>irssibot.modules.ChannelTools</module>
+    <module>irssibot.modules.UserTools</module>
+    <module>irssibot.modules.HTMLTools</module>
+    <module>irssibot.modules.Logger</module>
+    <module>irssibot.modules.SodexHo</module>
+    <module>irssibot.modules.TopicTools</module>
+  </modules>
+
+  <database name="mysql1">
+    <jdbc driver-class="org.gjt.mm.mysql.Driver"
+          url="jdbc:mysql://mysql.intra.pixelpress.fi:3306/777_ircstats?user=777user&#38;password=777team&#38;autoReconnect=true" />
+  </database>
+
+  <server-instance network="IRCNet">
+    <bot-info nick="ankybot"
+              altnick="ankybot-"
+              ident="irssibot"
+              realname="http://irssibot.777-team.org/IrssiBot/" />
+    <output flush-time-ms="1000" max-output-bytes="1024" />
+    <user-file path="config/ircnet-users.xml" />
+    <server-list>
+      <address>irc.nblnetworks.fi:6667</address>
+      <address>irc.nbl.fi:6667</address>
+      <address>irc.nebula.fi:6667</address>
+      <address>irc.song.fi:6667</address>
+      <address>irc.song.fi:6668</address>
+    </server-list>
+    <channel-list>
+      <channel name="#qvik" key="qviksolution123" forcedmodes="" />
+      <channel name="#mcmoka" key="" forcedmodes="" />
+      <channel name="#mokaw" key="" forcedmodes="" />
+      <channel name="#777-team" key="" forcedmodes="" />
+      <channel name="#rolanders" key="" forcedmodes="" />
+    </channel-list>
+  </server-instance>
+
+</irssibot-config>

@@ -1,0 +1,103 @@
+<users-file>
+<!-- user record begin -->
+<user name="mattid" global-flags="A" password="qndeurhi">
+  <channel name="#messi" flags="oA" />
+  <hostmasks>
+    <mask>*!mattid@fregatti.mermit.fi</mask>
+    <mask>*!mattid@jaala.mermit.fi</mask>
+    <mask>*!mattid@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="kario" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~kario@fregatti.mermit.fi</mask>
+    <mask>*!~kario@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="salainen" global-flags="A" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~hvesalai@fregatti.mermit.fi</mask>
+    <mask>*!~hvesalai@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="tuomas" global-flags="A" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~tuomas@fregatti.mermit.fi</mask>
+    <mask>*!^tuomas@parkki.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="stern" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~janne@fregatti.mermit.fi</mask>
+    <mask>*!~janne@dsonkki.mermit.fi</mask>
+    <mask>*!~janne@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="mattik" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~matti@kaljaasi.mermit.fi</mask>
+    <mask>*!~matti@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="cuugi" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~cuugi@fregatti.mermit.fi</mask>
+    <mask>*!~cuugi@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="ilari" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~ilari@fregatti.mermit.fi</mask>
+    <mask>*!~ilari@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="juha" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~juha@fregatti.mermit.fi</mask>
+    <mask>*!~juha@amme.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+<!-- user record begin -->
+<user name="ari" global-flags="" password="">
+  <channel name="#messi" flags="o" />
+  <hostmasks>
+    <mask>*!~arik@fregatti.mermit.fi</mask>
+  </hostmasks>
+</user>
+<!-- user record end -->
+
+</users-file>

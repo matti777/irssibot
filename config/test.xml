@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- main configuration file for IrssiBot / created Wed Nov 14 10:55:52 EET 2001 -->
+<irssibot-config>
+  <general>
+    <dateformat>dd.MM.yyyy HH:mm</dateformat>
+    <logfile></logfile>
+  </general>
+
+  <module-list>
+    <module>ChannelTools</module>
+    <module>UserTools</module>
+    <module>HTMLTools</module>
+    <module>Logger</module>
+    <module>SodexHo</module>
+    <module>TopicTools</module>
+  </module-list>
+
+  <database>
+    <host hostname="mysql.intra.777-team.org" hostport="3306" />
+    <user name="777user" password="777team" />
+  </database>
+
+  <server-instance network="IRCNet">
+    <bot-info nick="ankybot"
+              altnick="ankybot-"
+              ident="irssibot"
+              realname="http://dreamland.tky.hut.fi/IrssiBot/" />
+    <output flush-time-ms="1000" max-output-bytes="1024" />
+    <user-file path="config/ircnet-users.xml" />
+    <server-list>
+      <address>irc.eunet.fi:6668</address>
+      <address>irc.eunet.fi:6667</address>
+      <address>irc.cs.hut.fi:6667</address>
+      <address>irc.funet.fi:6667</address>
+      <address>irc.jyu.fi:6667</address>
+      <address>aapo.it.lut.fi:6667</address>
+    </server-list>
+    <channel-list>
+      <channel name="#irssibot" key="" forcedmodes="" />
+      <channel name="#mcmoka" key="" forcedmodes="" />
+      <channel name="#vempain" key="" forcedmodes="" />
+      <channel name="#rolanders" key="" forcedmodes="" />
+      <channel name="#777-team" key="" forcedmodes="+nt-sli" />
+    </channel-list>
+  </server-instance>
+
+</irssibot-config>

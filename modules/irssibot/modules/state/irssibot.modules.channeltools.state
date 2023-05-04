@@ -1,0 +1,4 @@
+#state file for irssibot.modules.ChannelTools
+#Mon Dec 17 14:51:47 EET 2001
+MERMITNet-\#messi-floodvars=10 2
+MERMITNet-\#messi-chanvars=30 5 0 0
